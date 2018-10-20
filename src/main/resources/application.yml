@@ -10,7 +10,7 @@ spring:
     password: admin
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
       format_sql: true
       temp:
         use_jdbc_metadata_defaults: false
